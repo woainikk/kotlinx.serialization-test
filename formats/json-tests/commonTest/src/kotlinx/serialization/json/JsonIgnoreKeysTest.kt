@@ -38,7 +38,7 @@ class JsonIgnoreKeysTest : JsonTestBase() {
             assertContains(
                 msg,
                 if (mode == JsonTestingMode.TREE) "Encountered an unknown key 'b' at element: \$\n"
-                else "Unexpected JSON token at offset 59: Encountered an unknown key 'b' at path: \$\n"
+                else "Encountered an unknown key 'b' at offset 59 at path: \$\n"
             )
         }
     }

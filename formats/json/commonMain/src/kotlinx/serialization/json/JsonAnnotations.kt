@@ -82,4 +82,4 @@ public annotation class JsonClassDiscriminator(val discriminator: String)
 @SerialInfo
 @Target(AnnotationTarget.CLASS)
 @ExperimentalSerializationApi
-public annotation class JsonIgnoreUnknownKeys(val ignoreUnknownKeys: Boolean = true)
+public annotation class JsonIgnoreUnknownKeys
