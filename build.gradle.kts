@@ -14,6 +14,7 @@ plugins {
     id("benchmark-conventions")
     id("publishing-check-conventions")
     id("kover-conventions")
+    // test commit 1
 
     alias(libs.plugins.serialization) apply false
 }
