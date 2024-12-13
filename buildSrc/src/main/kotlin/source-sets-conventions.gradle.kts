@@ -23,7 +23,7 @@ tasks.withType<JavaCompile>().configureEach {
 }
 
 internal fun Project.versionCatalog(): VersionCatalog = versionCatalogs.named("libs")
-
+//test commit 2
 kotlin {
     explicitApi()
 
