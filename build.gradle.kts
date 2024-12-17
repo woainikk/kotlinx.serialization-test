@@ -28,6 +28,7 @@ repositories {
     maven("https://maven.pkg.jetbrains.space/public/p/kotlinx-html/maven")
     // For local development
     mavenLocal()
+    /// TEST TEST
 }
 
 // == common projects settings setup
