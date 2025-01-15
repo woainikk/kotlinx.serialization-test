@@ -29,6 +29,7 @@ repositories {
     // For local development
     mavenLocal()
     /// TEST TEST
+    // test commit 15 JAN
 }
 
 // == common projects settings setup
